@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://localhost:8787/schemas/shared/demo-card/v1.1.0.json",
+  "title": "Demo card",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "image": { "$ref": "http://localhost:8787/schemas/shared/demo-image/v1.0.0.json" }
+  },
+  "required": ["title"],
+  "additionalProperties": false
+}
